@@ -6,13 +6,16 @@ body {
  transition:background-image .5s ease-in-out;
  -webkit-transition:background-image .5s ease-in-out;
  font-family:roboto,sans-serif;
- font-size:9pt;
- color:#fff;
+ font-size:14pt;
+ font-weight: bold;
+ /* color:#fff; */
  width:100%;
  margin:0;
  padding:0;
  transition:opacity .8s ease;
- overflow:hidden
+ overflow:hidden;
+ background-image: url('../media/mountains.jpg');
+ 
 }
 img {
  max-height:55px
